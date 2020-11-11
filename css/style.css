@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* utility class*/
+.fl {
+  float: left;
+}
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+.container-1200 {
+  max-width: 1200px;
+  margin:0 auto;
+}
+
+/*fine utility class*/
+
+/* style progetto*/
+
+
+header {
+  width: 100%;
+  background: #000080;
+}
+
+.container-header{
+  max-width:1200px;
+  background: #000080;
+  margin:0 auto;
+  position:relative;
+}
+header > .container-header >.navbar {
+  width: 50%;
+  height: 100px;
+
+}
+
+.nav-uno {
+  width: 60%;
+  margin-top: 15px;
+}
+.nav-uno >div {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.nav-uno >div > ul {
+list-style-type: none;
+margin: 0 auto;
+display:inline-block;
+}
+
+.nav-uno >div > ul > li {
+  display: inline;
+  float: left;
+  padding:3px;
+}
+
+.nav-uno > ul > li:first-child a{
+  padding-right:8px;
+}
+.nav-uno >div > ul > li > a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav-due {
+  width: 40%;
+  margin-top:15px;
+  line-height: normal;
+}
+.nav-due div {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.nav-due div > ul {
+list-style-type: none;
+margin: 0 auto;
+display:inline-block;
+}
+
+.nav-due div > ul > li {
+  display: inline;
+  float: left;
+  padding:8px;
+}
+
+.nav-due div > ul > li > a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.login {
+  border:2px solid white;
+  border-radius: 2px;
+  font-size: 15px;
+  padding:3px;
+}
+
+.st-piano {
+  background: lightgreen;
+  border:2px solid lightgreen;
+  border-radius: 2px;
+  font-size: 15px;
+  padding:3px;
+}
+
+.slogan {
+  width: 30%;
+  float:left;
+  color:white;
+  position: absolute;
+  top:200%;
+
+}
+
+.container-fluid {
+  position: relative;
+  padding-top:100px;
+  padding-bottom:200px;
+}
+
+.header-center{
+  width: 30%;
+  background: #000080;
+}
+
+ h1 {
+  font-size:25px;
+  color:white;
+}
+
+.header-center button {
+  font-size: 15px;
+  margin-top:15px;
+  padding:10px;
+}
+
+
+ .hero-img{
+  width: 60%;
+  margin-top:20px;
+  position: absolute;
+  bottom:0;
+  right:-10px;
+}
+
+.grey-row {
+  background: lightgrey;
+  text-align: center;
+  vertical-align:middle;
+  padding:15px;
+}
+h3 {
+  color:grey;
+  margin-top:4px;
+}
